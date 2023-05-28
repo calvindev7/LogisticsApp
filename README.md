@@ -23,11 +23,7 @@ Sigue estos pasos para configurar y ejecutar la aplicación:
 dotnet restore
 ```
 
-5. Ejecuta el siguiente comando en la terminal para aplicar las migraciones y crear las tablas en la base de datos:
-
-```shell
-dotnet ef database update
-```
+5. Ejecuta el script en tu base de datos local ubicado en LogisticsApp Back/DbLogisticAPP.sql para aplicar las migraciones y crear las tablas en la base de datos
 
 6. Ejecuta el siguiente comando para iniciar la aplicación:
 
