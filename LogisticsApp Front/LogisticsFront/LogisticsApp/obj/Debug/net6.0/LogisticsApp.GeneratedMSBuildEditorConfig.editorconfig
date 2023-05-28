@@ -1,0 +1,133 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = LogisticsApp
+build_property.RootNamespace = LogisticsApp
+build_property.ProjectDir = C:\Users\david\Desktop\LogisticsApp\LogisticsApp Front\LogisticsFront\LogisticsApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\david\Desktop\LogisticsApp\LogisticsApp Front\LogisticsFront\LogisticsApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Bodegas/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kZWdhc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Bodegas/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kZWdhc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Bodegas/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kZWdhc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Bodegas/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kZWdhc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Bodegas/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9kZWdhc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Clientes/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Clientes/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Clientes/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Clientes/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Clientes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2xpZW50ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/EnviosTerrestres/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zVGVycmVzdHJlc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/EnviosTerrestres/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW52aW9zVGVycmVzdHJlc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Productos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Productos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Productos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Productos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Productos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdG9zXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Puertos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlcnRvc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Puertos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlcnRvc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Puertos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlcnRvc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Puertos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlcnRvc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Puertos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVlcnRvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/Desktop/LogisticsApp/LogisticsApp Front/LogisticsFront/LogisticsApp/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l0jrtuougz

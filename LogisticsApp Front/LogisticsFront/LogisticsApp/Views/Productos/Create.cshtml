@@ -1,0 +1,39 @@
+﻿@model LogisticsApp.Models.Producto
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Crear Producto</h4>
+        <hr />
+        <form asp-action="Create" asp-controller="Productos" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label asp-for="Nombre" class="control-label"></label>
+                        <input asp-for="Nombre" class="form-control" />
+                        <span asp-validation-for="Nombre" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="Tipo" class="control-label"></label>
+                        <select asp-for="Tipo" class="form-select">
+                            <option value="Terrestre">Terrestre</option>
+                            <option value="Marítimo">Marítimo</option>
+                        </select>
+                        <span asp-validation-for="Tipo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                        <label asp-for="PrecioUnidad" class="control-label">Precio Unidad</label>
+                        <input asp-for="PrecioUnidad" class="form-control" />
+                        <span asp-validation-for="PrecioUnidad" class="text-danger"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Regresar a la Lista</a>
+</div>

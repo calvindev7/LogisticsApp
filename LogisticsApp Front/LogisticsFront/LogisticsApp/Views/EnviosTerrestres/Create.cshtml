@@ -1,0 +1,92 @@
+﻿@model LogisticsApp.Models.EnvioTerresteViewModel
+
+<div class="row">
+    <div class="col-md-6">
+        <h4>Crear Envío Terrestre</h4>
+        <hr />
+        <form asp-action="Create" asp-controller="EnviosTerrestres" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.TipoProducto" class="control-label"></label>
+                        <input asp-for="EnvioTerrestre.TipoProducto" class="form-control" />
+                        <span asp-validation-for="EnvioTerrestre.TipoProducto" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.CantidadProducto" class="control-label">Cantidad del Producto</label>
+                        <input asp-for="EnvioTerrestre.CantidadProducto" type="number" class="form-control" />
+                        <span asp-validation-for="EnvioTerrestre.CantidadProducto" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.FechaEntrega" class="control-label">Fecha de Entrega</label>
+                        <input asp-for="EnvioTerrestre.FechaEntrega" type="date" value="" class="form-control" />
+                        <span asp-validation-for="EnvioTerrestre.FechaEntrega" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.BodegaId" class="control-label">Bodega</label>
+                        <select asp-for="EnvioTerrestre.BodegaId" class="form-select">
+                            @foreach (var bodega in Model.Bodegas)
+                            {
+                                <option value="@bodega.Id">@bodega.Nombre</option>
+                            }
+                        </select>
+                        <span asp-validation-for="EnvioTerrestre.BodegaId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.PlacaVehiculo" class="control-label">Placa del Vehiculo</label>
+                        <input asp-for="EnvioTerrestre.PlacaVehiculo" class="form-control" />
+                        <span asp-validation-for="EnvioTerrestre.PlacaVehiculo" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.NumeroGuia" class="control-label">Numero de Guia</label>
+                        <input asp-for="EnvioTerrestre.NumeroGuia" class="form-control" />
+                        <span asp-validation-for="EnvioTerrestre.NumeroGuia" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.ClienteId" class="control-label">Cliente</label>
+                        <select asp-for="EnvioTerrestre.ClienteId" class="form-select">
+                            @foreach (var cliente in Model.Clientes)
+                            {
+                                <option value="@cliente.Id">@cliente.Nombre</option>
+                            }
+                        </select>
+                        <span asp-validation-for="EnvioTerrestre.ClienteId" class="text-danger"></span>
+                    </div>
+                    <div class="form-group p-2">
+                        <label asp-for="EnvioTerrestre.ProductoId" class="control-label">Producto</label>
+                        <select asp-for="EnvioTerrestre.ProductoId" class="form-select">
+                            @foreach (var producto in Model.Productos)
+                            {
+                                if (@producto.Tipo == "Terrestre")
+                                {
+                                    <option value="@producto.Id">@producto.Nombre</option>
+                                }
+                            }
+                        </select>
+                        <span asp-validation-for="EnvioTerrestre.ProductoId" class="text-danger"></span>
+                    </div>
+                    <input asp-for="Productos" name="Productos" value="@Model.Productos" type="hidden" />
+
+                </div>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Crear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="Index">Regresar a la Lista</a>
+</div>
+
+<script>
+    // Obtén la lista de productos como un array en JavaScript
+    var productosArray = @Html.Raw(Json.Serialize(Model.Productos));
+
+    // Convierte el array en una cadena separada por comas
+    var productosString = productosArray.join(',');
+
+    // Asigna la cadena al campo oculto
+    document.getElementById('productosInput').value = productosString;
+</script>

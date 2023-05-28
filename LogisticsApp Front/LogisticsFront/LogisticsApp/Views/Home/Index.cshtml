@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Bienvenido</h1>
+    <p>LogisticAPP te permite administrar Clientes, Productos, Bodegas, Puertos y envíos de tu empresa</p>
+    <p>Puedes utilizarla para registrar los datos básicos del cliente, los tipos de productos que transporta tanto para la logística terrestre como para la logística marítima y contar con el registro de las bodegas de almacenamiento terrestre y puertos marítimos a su disposición a nivel nacional o internacional.</p>
+    <p>¡Comienza a administrar tu Logistica hoy mismo!</p>
+    <a href="@Url.Action("Index", "Clientes")" class="btn btn-primary">Clientes</a>
+    <a href="@Url.Action("Index", "Productos")" class="btn btn-primary">Productos</a>
+    <a href="@Url.Action("Index", "Bodegas")" class="btn btn-primary">Bodegas</a>
+    <a href="@Url.Action("Index", "Puertos")" class="btn btn-primary">Puertos</a>
+    <a href="@Url.Action("Index", "EnviosTerrestres")" class="btn btn-primary">Envíos Terrestres</a>
+    <a href="@Url.Action("Index", "Clientes")" class="btn btn-primary">Envíos Marítimos</a>
+</div>
